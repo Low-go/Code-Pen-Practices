@@ -1,0 +1,30 @@
+
+.layout{
+    display: flex;
+}
+  
+  .sidebar{
+    min-width: 200px;
+    max-width: 200px;
+    flex: shrink;
+    gap: 10px;
+    overflow-wrap: break-word;
+    
+  }
+  .main-content{
+    flex: grow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 70px;
+  }
+  
+  .card{
+    width: 90%;
+    height: auto;
+    border: 2px solid black;
+  }
+  
+  .card img{
+    width: 100%;
+  }
