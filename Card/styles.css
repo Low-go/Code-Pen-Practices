@@ -1,0 +1,31 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0px;
+	font-family: "Roboto", sans-serif;
+}
+.card {
+	width: 380px;
+	height: 265px;
+	box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+		0 15px 40px rgba(166, 173, 201, 0.2);
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+img {
+	width: 90px;
+	height: 75px;
+	clip-path: circle();
+	border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.top-section {
+	margin: 9px;
+	margin-top: 20px;
+	display: flex;
+	gap: 55px;
+}
+.bottom-section {
+	margin: 20px;
+}
